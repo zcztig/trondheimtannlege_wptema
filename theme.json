@@ -1,0 +1,213 @@
+{
+	"settings": {
+		"appearanceTools": true,
+		"color": {
+			"custom": true,
+			"customGradient": true,
+			"palette": [
+				{
+					"color": "#77ad9d",
+					"name": "Grønn",
+					"slug": "custom-gronn"
+				},
+				{
+					"color": "#172c43",
+					"name": "Blå",
+					"slug": "custom-bla"
+				}
+			]
+		},
+		"layout": {
+			"contentSize": "800px",
+			"wideSize": "1450px"
+		},
+		"spacing": {
+			"units": [
+				"%",
+				"px",
+				"em",
+				"rem",
+				"vh",
+				"vw"
+			]
+		},
+		"typography": {
+			"customFontSize": true,
+			"fontFamilies": [
+				{
+					"fontFamily": "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif",
+					"name": "System Font",
+					"slug": "system-font"
+				},
+				{
+					"fontFace": [
+						{
+							"fontFamily": "Work Sans",
+							"fontStyle": "normal",
+							"fontWeight": "300",
+							"src": [
+								"file:./assets/fonts/work-sans_normal_300.ttf"
+							]
+						},
+						{
+							"fontFamily": "Work Sans",
+							"fontStyle": "normal",
+							"fontWeight": "400",
+							"src": [
+								"file:./assets/fonts/work-sans_normal_400.ttf"
+							]
+						},
+						{
+							"fontFamily": "Work Sans",
+							"fontStyle": "normal",
+							"fontWeight": "700",
+							"src": [
+								"file:./assets/fonts/work-sans_normal_700.ttf"
+							]
+						},
+						{
+							"fontFamily": "Work Sans",
+							"fontStyle": "italic",
+							"fontWeight": "300",
+							"src": [
+								"file:./assets/fonts/work-sans_italic_300.ttf"
+							]
+						},
+						{
+							"fontFamily": "Work Sans",
+							"fontStyle": "italic",
+							"fontWeight": "400",
+							"src": [
+								"file:./assets/fonts/work-sans_italic_400.ttf"
+							]
+						},
+						{
+							"fontFamily": "Work Sans",
+							"fontStyle": "italic",
+							"fontWeight": "700",
+							"src": [
+								"file:./assets/fonts/work-sans_italic_700.ttf"
+							]
+						}
+					],
+					"fontFamily": "Work Sans",
+					"slug": "work-sans"
+				},
+				{
+					"fontFace": [
+						{
+							"fontFamily": "DM Serif Display",
+							"fontStyle": "normal",
+							"fontWeight": "400",
+							"src": [
+								"file:./assets/fonts/dm-serif-display_normal_400.ttf"
+							]
+						},
+						{
+							"fontFamily": "DM Serif Display",
+							"fontStyle": "italic",
+							"fontWeight": "400",
+							"src": [
+								"file:./assets/fonts/dm-serif-display_italic_400.ttf"
+							]
+						}
+					],
+					"fontFamily": "DM Serif Display",
+					"slug": "dm-serif-display"
+				}
+			],
+			"fontSizes": [
+				{
+					"name": "Small",
+					"size": "18px",
+					"slug": "small"
+				},
+				{
+					"name": "Medium",
+					"size": "32px",
+					"slug": "medium"
+				},
+				{
+					"name": "Large",
+					"size": "48px",
+					"slug": "large"
+				},
+				{
+					"name": "Extra large",
+					"size": "80px",
+					"slug": "x-large"
+				}
+			]
+		},
+		"useRootPaddingAwareAlignments": true
+	},
+	"styles": {
+		"blocks": {
+			"core/paragraph": {
+				"spacing": {
+					"margin": {
+						"bottom": "var:preset|spacing|30",
+						"left": "0",
+						"right": "0",
+						"top": "0"
+					},
+					"padding": {
+						"bottom": "0",
+						"left": "0",
+						"right": "0",
+						"top": "0"
+					}
+				},
+				"typography": {
+					"letterSpacing": "0px",
+					"lineHeight": "1.5"
+				}
+			}
+		},
+		"elements": {
+			"heading": {
+				"typography": {
+					"fontFamily": "DM Serif Display"
+				}
+			},
+			"link": {
+				":hover": {
+					"color": {
+						"text": "#7bdcb5"
+					}
+				},
+				"color": {
+					"text": "var:preset|color|vivid-green-cyan"
+				}
+			}
+		},
+		"spacing": {
+			"blockGap": "30px",
+			"padding": {
+				"left": "2em",
+				"right": "2em"
+			}
+		},
+		"typography": {
+			"fontFamily": "var:preset|font-family|work-sans",
+			"fontSize": "20px",
+			"fontStyle": "normal",
+			"fontWeight": "400",
+			"lineHeight": "1.5"
+		}
+	},
+	"templateParts": [
+		{
+			"area": "header",
+			"name": "header",
+			"title": "Sidetopp"
+		},
+		{
+			"area": "footer",
+			"name": "footer",
+			"title": "Sidebunn"
+		}
+	],
+	"version": 2,
+	"$schema": "https://schemas.wp.org/wp/6.1/theme.json"
+}
