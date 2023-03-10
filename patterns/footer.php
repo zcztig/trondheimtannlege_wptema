@@ -126,6 +126,7 @@
 
 <!-- wp:group {"style":{"spacing":{"padding":{"top":"var:preset|spacing|30","right":"var:preset|spacing|30","bottom":"var:preset|spacing|30","left":"var:preset|spacing|30"},"margin":{"top":"0","bottom":"0"}}},"layout":{"inherit":true,"type":"constrained"}} -->
 <div class="wp-block-group" style="margin-top:0;margin-bottom:0;padding-top:var(--wp--preset--spacing--30);padding-right:var(--wp--preset--spacing--30);padding-bottom:var(--wp--preset--spacing--30);padding-left:var(--wp--preset--spacing--30)"><!-- wp:paragraph {"align":"center"} -->
+<p class="has-text-align-center">&copy; <?php echo date('Y'); ?> - Alle rettigheter reservert</a></p>
 <p class="has-text-align-center">Design og utvikling av <a href="https://www.fikse-design.no">Fikse Design</a></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
